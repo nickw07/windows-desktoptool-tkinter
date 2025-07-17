@@ -15,7 +15,7 @@ class QuickAccessFirst(ttk.Frame):
         frame_description_label.place(x=25, y=12)
 
         # switch button
-        self.switch_frame_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/down-32x32px.png")
+        self.switch_frame_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/down-32x32px.png")
         switch_frame_button = ttk.Button(self,
                                          image=self.switch_frame_button_icon,
                                          command=lambda: controller.change_window(QuickAccessSecond),
@@ -24,7 +24,7 @@ class QuickAccessFirst(ttk.Frame):
 
         # frame functionality - Opening Task Manager/Settings/Explorer
         # 1
-        self.open_task_manager_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/taskmanager-64x64px.png")
+        self.open_task_manager_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/taskmanager-64x64px.png")
         open_task_manager_button = ttk.Button(self,
                                               image=self.open_task_manager_button_icon,
                                               command=self.open_task_manager,
@@ -37,7 +37,7 @@ class QuickAccessFirst(ttk.Frame):
         open_task_manager_label.place(x=100, y=80)
 
         # 2
-        self.open_settings_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/settings-64x64px.png")
+        self.open_settings_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/settings-64x64px.png")
         open_settings_button = ttk.Button(self,
                                           image=self.open_settings_button_icon,
                                           command=self.open_settings,
@@ -50,7 +50,7 @@ class QuickAccessFirst(ttk.Frame):
         open_settings_label.place(x=100, y=165)
 
         # 3
-        self.open_explorer_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/explorer-64x64px.png")
+        self.open_explorer_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/explorer-64x64px.png")
         open_explorer_button = ttk.Button(self,
                                           image=self.open_explorer_button_icon,
                                           command=self.open_explorer,
@@ -101,7 +101,7 @@ class QuickAccessSecond(ttk.Frame):
         frame_description_label.place(x=25, y=12)
 
         # switch button
-        self.switch_frame_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/up-32x32px.png")
+        self.switch_frame_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/up-32x32px.png")
         switch_frame_button = ttk.Button(self,
                                          image=self.switch_frame_button_icon,
                                          command=lambda: controller.change_window(QuickAccessFirst),
@@ -109,7 +109,7 @@ class QuickAccessSecond(ttk.Frame):
         switch_frame_button.place(x=155, y=300)
 
         # frame functionality - Opening Notepad
-        self.open_notepad_button_icon = tk.PhotoImage(file=r"../graphics/quickaccess-frames/notepad-64x64px.png")
+        self.open_notepad_button_icon = tk.PhotoImage(file=r"graphics/quickaccess-frames/notepad-64x64px.png")
         open_notepad_button = ttk.Button(self,
                                          image=self.open_notepad_button_icon,
                                          command=self.open_notepad,

@@ -33,7 +33,7 @@ It allows you to:
 
 > ❗ The images in this version (colored rectangles, circles, and laptop) are placeholders due to copyright reasons❗
 > The final version would use themed icons and a different laptop image.
-> Attribution for the original assets is still included in `icon-attribution.txt`.
+> Attribution for the original assets is still included in `graphics/icon-attribution.txt`.
 > The following preview shows the original version
 
 ![screenshot](graphics/github-project-preview.png)
@@ -41,11 +41,14 @@ It allows you to:
 ---
 ## 📁 | Project Structure
 
-- `applications/` – Calculator, Password generator, Styles for these apps
-- `graphics/` – Icons and UI-Images
-- `root/` – Main file, all frames, Theme-Manager
-- `requirements.txt` – Python dependencies
-- `icon-attribution.txt` – Icon sources
+- `applications/` - Calculator, Password generator, Styles for these apps
+- `graphics/` - Icons and UI-Images + Attribution
+- `root_ui/` - All UI frames
+- `requirements.txt` - Python dependencies
+- `main_app.py` - Main window logic
+- `main_styles.py` - Styling for main window
+- `theme_manager.py` - Appearance mode management
+- `start.py` - Initializing file
 
 ---
 
@@ -72,7 +75,7 @@ pip install -r requirements.txt
 
 4. Run the application (`main.py` in `root` folder)
 ```
-python root/main.py
+python start.py
 ```
 
 ---

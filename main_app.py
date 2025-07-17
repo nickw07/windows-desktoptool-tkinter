@@ -25,7 +25,7 @@ class MainWindow(tk.Tk):
         self.resizable(False, False)
 
         self.title("Desktop Tool")
-        self.iconbitmap(r"../graphics/window-icon-32x32px.ico")
+        self.iconbitmap(r"graphics/window-icon-32x32px.ico")
 
         self.style = LightModeStyle(self)
         self.configure(background=self.style.BACKGROUND_COLOR)
@@ -88,7 +88,3 @@ class BodyFrame(ttk.Frame):
     def __init__(self, container, **kwargs):
         super().__init__(container, **kwargs)
 
-
-if __name__ == "__main__":
-    root = MainWindow()
-    root.mainloop()

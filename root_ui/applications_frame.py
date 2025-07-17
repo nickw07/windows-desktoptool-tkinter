@@ -20,7 +20,7 @@ class ApplicationsFrame(ttk.Frame):
 
         # frame functionality - Open Calculator/Password generator/Screenshot
         # 1
-        self.calculator_app_icon = tk.PhotoImage(file=r"../graphics/applications-frame/calculator-64x64px.png")
+        self.calculator_app_icon = tk.PhotoImage(file=r"graphics/applications-frame/calculator-64x64px.png")
         calculator_app_button = ttk.Button(self,
                                            image=self.calculator_app_icon,
                                            command=self.start_calculator,
@@ -33,7 +33,7 @@ class ApplicationsFrame(ttk.Frame):
         calculator_app_label.place(x=105, y=50)
 
         # 2
-        self.password_generator_app_icon = tk.PhotoImage(file=r"../graphics/applications-frame/pwdgenerator-64x64px.png")
+        self.password_generator_app_icon = tk.PhotoImage(file=r"graphics/applications-frame/pwdgenerator-64x64px.png")
         password_generator_app_button = ttk.Button(self,
                                                    image=self.password_generator_app_icon,
                                                    command=self.start_password_generator,
@@ -46,7 +46,7 @@ class ApplicationsFrame(ttk.Frame):
         password_generator_app_label.place(x=370, y=50)
 
         # 3
-        self.take_screenshot_app_icon = tk.PhotoImage(file=r"../graphics/applications-frame/screenshot-64x64px.png")
+        self.take_screenshot_app_icon = tk.PhotoImage(file=r"graphics/applications-frame/screenshot-64x64px.png")
         take_screenshot_app_button = ttk.Button(self,
                                                 image=self.take_screenshot_app_icon,
                                                 command=self.take_screenshot,

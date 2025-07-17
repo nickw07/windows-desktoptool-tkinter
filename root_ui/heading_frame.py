@@ -6,9 +6,9 @@ import datetime
 
 import subprocess
 
-from root.theme_manager import ThemeManager
+from theme_manager import ThemeManager
 
-from root.main_styles import LightModeStyle, DarkModeStyle
+from main_styles import LightModeStyle, DarkModeStyle
 
 
 class HeadingFrame(ttk.Frame):
@@ -32,21 +32,21 @@ class HeadingFrame(ttk.Frame):
         time_label.place(x=390, y=10)
 
         # additional functionalities
-        self.switch_mode_button_icon = tk.PhotoImage(file=r"../graphics/heading-frame/switch-32x32px.png")
+        self.switch_mode_button_icon = tk.PhotoImage(file=r"graphics/heading-frame/switch-32x32px.png")
         switch_mode_button = ttk.Button(self,
                                         image=self.switch_mode_button_icon,
                                         command=self.switch_mode,
                                         style="AppButton.TButton")
         switch_mode_button.place(x=700, y=3)
 
-        self.lock_screen_button_icon = tk.PhotoImage(file=r"../graphics/heading-frame/lock-32x32px.png")
+        self.lock_screen_button_icon = tk.PhotoImage(file=r"graphics/heading-frame/lock-32x32px.png")
         lock_screen_button = ttk.Button(self,
                                         image=self.lock_screen_button_icon,
                                         command=self.lock_screen,
                                         style="AppButton.TButton")
         lock_screen_button.place(x=745, y=3)
 
-        self.close_app_button_icon = tk.PhotoImage(file=r"../graphics/heading-frame/close-32x32px.png")
+        self.close_app_button_icon = tk.PhotoImage(file=r"graphics/heading-frame/close-32x32px.png")
         close_app_button = ttk.Button(self,
                                       image=self.close_app_button_icon,
                                       command=self.close_app,

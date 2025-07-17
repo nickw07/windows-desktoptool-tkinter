@@ -29,14 +29,14 @@ class SystemFrame(ttk.Frame):
                                             style="FrameDescriptionLabel.TLabel")
         frame_description_label.place(x=240, y=12)
 
-        self.load_info_button_icon = tk.PhotoImage(file=r"../graphics/system-frame/load-32x32px.png")
+        self.load_info_button_icon = tk.PhotoImage(file=r"graphics/system-frame/load-32x32px.png")
         load_info_button = ttk.Button(self,
                                       image=self.load_info_button_icon,
                                       command=self.load_all,
                                       style="AppButton.TButton")
         load_info_button.place(x=365, y=4)
 
-        self.pc_image = tk.PhotoImage(file=r"../graphics/system-frame/laptop-image.png")
+        self.pc_image = tk.PhotoImage(file=r"graphics/system-frame/laptop-image.png")
         pc_image = ttk.Label(self,
                              image=self.pc_image,
                              style="Image.TLabel")

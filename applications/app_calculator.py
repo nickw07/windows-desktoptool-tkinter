@@ -8,7 +8,7 @@ import pyperclip
 
 from applications.app_styles import CalculatorLightModeStyle, CalculatorDarkModeStyle
 
-from root.theme_manager import ThemeManager
+from theme_manager import ThemeManager
 
 
 class Calculator(tk.Toplevel):
@@ -23,7 +23,7 @@ class Calculator(tk.Toplevel):
         self.resizable(False, False)
 
         self.title("Calculator")
-        self.iconbitmap(r"../graphics/window-icon-32x32px.ico")
+        self.iconbitmap(r"graphics/window-icon-32x32px.ico")
 
         # start in correct mode
         if ThemeManager.is_dark_mode():
