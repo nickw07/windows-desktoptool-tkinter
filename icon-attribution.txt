@@ -1,0 +1,46 @@
+
+All icons from https://www.flaticon.com/
+
+
+window-icon-32x32px.ico / from Freepik
+link: <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Freepik - Flaticon</a>
+
+
+switch-32x32px.png / from IYAHICON
+link: <a href="https://www.flaticon.com/free-icons/night-mode" title="night mode icons">Night mode icons created by IYAHICON - Flaticon</a>
+
+lock-32x32px.png / from pojok d
+link: <a href="https://www.flaticon.com/free-icons/lock" title="lock icons">Lock icons created by pojok d - Flaticon</a>
+
+close-32x32px.png / from Pixel perfect
+link: <a href="https://www.flaticon.com/free-icons/delete" title="delete icons">Delete icons created by Pixel perfect - Flaticon</a>
+
+
+load-32x32px.png / made by IYAHICON
+link: <a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh icons created by IYAHICON - Flaticon</a>
+
+
+up-32x32px.png + down-32x32px.png // made by Andrean Prabowo
+link: <a href="https://www.flaticon.com/free-icons/right-arrow" title="right arrow icons">Right arrow icons created by Andrean Prabowo - Flaticon</a>
+
+taskmanager-64x64px // made by Freepik
+link: <a href="https://www.flaticon.com/free-icons/system" title="system icons">System icons created by Freepik - Flaticon</a>
+
+settings-64x64px.png // made by Freepik
+link: <a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
+
+explorer-64x64px.png // made by KP Arts
+link: <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by KP Arts - Flaticon</a>
+
+notepad-64x64px.png // made by Smashicons
+link: <a href="https://www.flaticon.com/free-icons/notepad" title="notepad icons">Notepad icons created by Smashicons - Flaticon</a>
+
+
+calculator-64x64px.png // made by Freepik
+link: <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Freepik - Flaticon</a>
+
+pwdgenerator-64x64px.png // made by berkahicon
+link: <a href="https://www.flaticon.com/free-icons/lock" title="lock icons">Lock icons created by berkahicon - Flaticon</a>
+
+screenshot-64x64px.png // made by Freepik
+link: <a href="https://www.flaticon.com/free-icons/screenshot" title="screenshot icons">Screenshot icons created by Freepik - Flaticon</a>
