@@ -18,7 +18,7 @@ It allows you to:
 
 ---
 
-## 🛠️ |Technologies & Libraries
+## 🛠️ | Technologies & Libraries
 
 - `tkinter` – GUI framework
 - `psutil` – System information
@@ -73,7 +73,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-4. Run the application (`main.py` in `root` folder)
+4. Run the application (`start.py` in the project folder)
 ```
 python start.py
 ```
@@ -83,7 +83,7 @@ python start.py
 ## 📒 | Notes
 
 - The application was developed using Python 3.12 and PyCharm
-- It is designed specifically for Windows systems due to use of `wmi` and `pyautogui`
+- It is designed specifically for Windows systems
 
 ---
 
