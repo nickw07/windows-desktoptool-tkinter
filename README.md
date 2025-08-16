@@ -10,6 +10,13 @@ It allows you to:
 
 ---
 
+## 🖼️ | Preview
+
+![Project Demo](graphics/github-preview-files/desktoptool-preview.gif)
+![Application modes](graphics/github-preview-files/desktoptool-modes-preview.png)
+
+---
+
 ## 🧠 | Concepts used
 - Object-oriented design: Each UI frame is a class
 - Frame switching mechanism
@@ -29,26 +36,25 @@ It allows you to:
 
 ---
 
-## 🖼️ | Preview
-
-> ❗ The images in this version (colored rectangles, circles, and laptop) are placeholders due to copyright reasons❗
-> The final version would use themed icons and a different laptop image.
-> Attribution for the original assets is still included in `graphics/icon-attribution.txt`.
-> The following preview shows the original version
-
-![screenshot](graphics/github-project-preview.png)
-
----
 ## 📁 | Project Structure
 
 - `applications/` - Calculator, Password generator, Styles for these apps
-- `graphics/` - Icons and UI-Images + Attribution
+- `graphics/` - Icons and UI-Images
 - `root_ui/` - All UI frames
 - `requirements.txt` - Python dependencies
+- `ATTRIBUTION.md` - Icon sources
 - `main_app.py` - Main window logic
 - `main_styles.py` - Styling for main window
 - `theme_manager.py` - Appearance mode management
 - `start.py` - Initializing file
+
+---
+
+## 🧑‍⚖️ | Credits
+
+- This project uses icons from [Flaticon](https://www.flaticon.com) - For detailed attributions, see [ATTRIBUTION.md](./ATTRIBUTION.md)
+- The file [`graphics/system-frame/laptop-image.png`](./graphics/system-frame/laptop-image.png) is a placeholder laptop image and is only included for demonstration purposes due to copyright reasons
+- The GIF was made using [ezgif](https://ezgif.com/maker)
 
 ---
 
@@ -89,4 +95,5 @@ python start.py
 
 ## 🐛 | Bugs
 - Feel free to report any bugs
+- Widgets in the GUI may shift slightly depending on the environment (likely due to the `place` layout manager).
 - ⚠️ There are currently known issues with the calculator top-level window. Problems will be fixed in a future update.
