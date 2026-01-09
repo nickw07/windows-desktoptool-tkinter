@@ -8,14 +8,14 @@ It allows you to:
 - Access common windows programs
 - Launch three built-in applications (e.g. Calculator and password generator)
 
----
+<br>
 
 ## 🖼️ | Preview
 
 ![Project Demo](graphics/github-preview-files/desktoptool-preview.gif)
 ![Application modes](graphics/github-preview-files/desktoptool-modes-preview.png)
 
----
+<br>
 
 ## 🧠 | Concepts used
 - Object-oriented design: Each UI frame is a class
@@ -23,7 +23,7 @@ It allows you to:
 - Use of `Toplevel` windows for modular sub-apps
 - Modular structure with reusable styles and themes
 
----
+<br>
 
 ## 🛠️ | Technologies & Libraries
 
@@ -34,7 +34,7 @@ It allows you to:
 - `Pillow` – Image handling
 - `pyperclip` – Clipboard access
 
----
+<br>
 
 ## 📁 | Project Structure
 
@@ -48,7 +48,7 @@ It allows you to:
 - `theme_manager.py` - Appearance mode management
 - `start.py` - Initializing file
 
----
+<br>
 
 ## 🧑‍⚖️ | Credits
 
@@ -56,7 +56,7 @@ It allows you to:
 - The file [`graphics/system-frame/laptop-image.png`](./graphics/system-frame/laptop-image.png) is a placeholder laptop image and is only included for demonstration purposes due to copyright reasons
 - The GIF was made using [ezgif](https://ezgif.com/maker)
 
----
+<br>
 
 ## 🚀 | Installation
 
@@ -84,14 +84,14 @@ pip install -r requirements.txt
 python start.py
 ```
 
----
+<br>
 
 ## 📒 | Notes
 
 - The application was developed using Python 3.12 and PyCharm
 - It is designed specifically for Windows systems
 
----
+<br>
 
 ## 🐛 | Bugs
 - Feel free to report any bugs
